@@ -1,4 +1,6 @@
-import { now } from './currentTime';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const currentTime_1 = require("./currentTime");
 /**
  * Gets the day of the week
  *
@@ -6,8 +8,9 @@ import { now } from './currentTime';
  *
  * @return {number} day of the week
  */
-export default function getDay(payload = now()) {
+function getDay(payload = currentTime_1.now()) {
     const date = new Date(payload);
     return date.getDay();
 }
+exports.default = getDay;
 //# sourceMappingURL=getDay.js.map

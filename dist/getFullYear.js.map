@@ -1,1 +1,1 @@
-{"version":3,"file":"getFullYear.js","sourceRoot":"","sources":["../src/getFullYear.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,GAAG,EAAE,MAAM,eAAe,CAAA;AAEnC,MAAM,CAAC,OAAO,UAAU,WAAW,CACjC,UAA6B,GAAG,EAAE;IAElC,OAAO,CAAC,IAAI,IAAI,CAAC,OAAO,CAAC,CAAC,CAAC,WAAW,EAAE,CAAA;AAC1C,CAAC"}
+{"version":3,"file":"getFullYear.js","sourceRoot":"","sources":["../src/getFullYear.ts"],"names":[],"mappings":";;AAAA,+CAAmC;AAEnC,SAAwB,WAAW,CACjC,UAA6B,iBAAG,EAAE;IAElC,OAAO,CAAC,IAAI,IAAI,CAAC,OAAO,CAAC,CAAC,CAAC,WAAW,EAAE,CAAA;AAC1C,CAAC;AAJD,8BAIC"}
