@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.yyyymmdd = exports.startOfYear = exports.getMonthNameOf = exports.getMonthName = exports.getMonth = exports.getFullYear = exports.getDay = exports.getDate = exports.endOfYear = exports.ddmmyyyy = exports.now = exports.setNow = exports.addHours = void 0;
+exports.yyyymmdd = exports.startOfYear = exports.relative = exports.getMonthNameOf = exports.getMonthName = exports.getMonth = exports.getFullYear = exports.getDay = exports.getDate = exports.endOfYear = exports.ddmmyyyy = exports.now = exports.setNow = exports.addHours = void 0;
 const addHours_1 = require("./addHours");
 exports.addHours = addHours_1.default;
 const currentTime_1 = require("./currentTime");
@@ -22,6 +22,8 @@ const getMonthName_1 = require("./getMonthName");
 exports.getMonthName = getMonthName_1.default;
 const getMonthNameOf_1 = require("./getMonthNameOf");
 exports.getMonthNameOf = getMonthNameOf_1.default;
+const relative_1 = require("./relative");
+exports.relative = relative_1.default;
 const startOfYear_1 = require("./startOfYear");
 exports.startOfYear = startOfYear_1.default;
 const yyyymmdd_1 = require("./yyyymmdd");

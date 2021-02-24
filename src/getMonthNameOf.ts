@@ -1,4 +1,4 @@
-import { MONTHS_OF } from './ru/MONTHS'
+import { MONTHS_OF } from './locale/ru/MONTHS'
 import getMonth from './getMonth'
 import { now } from './currentTime'
 
