@@ -5,13 +5,15 @@ import formatRelative from './locale/ru/formatsRelative'
 /**
  * Localized relative date/time formatting (both for past and future dates).
  * 
- * @category Formatter
+ * @category Localizer
  * 
  * @example
- * ```
+ * ```typescript
+ * import relative from 'lodate/relative'
+ *
  * const createdAt = new Date(2021, 0, 1)
  * 
- * fromAgo(createdAt); // 20 day(s) ago;
+ * relative(createdAt) // 20 days ago
  * ```
  *
  * @param payload 

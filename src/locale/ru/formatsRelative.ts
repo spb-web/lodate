@@ -1,4 +1,4 @@
-import { FormatRelative } from '../locale/types'
+import { FormatRelative } from '../types'
 import pluralization from './pluralization'
 
 const formatsEgo = {

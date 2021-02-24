@@ -2740,8 +2740,13 @@ img {
 						<h3>Formatter Functions</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-function"><a href="modules.html#ddmmyyyy" class="tsd-kind-icon">ddmmyyyy</a></li>
-							<li class="tsd-kind-function"><a href="modules.html#relative" class="tsd-kind-icon">relative</a></li>
 							<li class="tsd-kind-function"><a href="modules.html#yyyymmdd" class="tsd-kind-icon">yyyymmdd</a></li>
+						</ul>
+						<h3>Localizer Functions</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-function"><a href="modules.html#getmonthname" class="tsd-kind-icon">get<wbr>Month<wbr>Name</a></li>
+							<li class="tsd-kind-function"><a href="modules.html#getmonthnameof" class="tsd-kind-icon">get<wbr>Month<wbr>Name<wbr>Of</a></li>
+							<li class="tsd-kind-function"><a href="modules.html#relative" class="tsd-kind-icon">relative</a></li>
 						</ul>
 						<h3>Other Functions</h3>
 						<ul class="tsd-index-list">
@@ -2750,8 +2755,6 @@ img {
 							<li class="tsd-kind-function"><a href="modules.html#getday" class="tsd-kind-icon">get<wbr>Day</a></li>
 							<li class="tsd-kind-function"><a href="modules.html#getfullyear" class="tsd-kind-icon">get<wbr>Full<wbr>Year</a></li>
 							<li class="tsd-kind-function"><a href="modules.html#getmonth" class="tsd-kind-icon">get<wbr>Month</a></li>
-							<li class="tsd-kind-function"><a href="modules.html#getmonthname" class="tsd-kind-icon">get<wbr>Month<wbr>Name</a></li>
-							<li class="tsd-kind-function"><a href="modules.html#getmonthnameof" class="tsd-kind-icon">get<wbr>Month<wbr>Name<wbr>Of</a></li>
 							<li class="tsd-kind-function"><a href="modules.html#startofyear" class="tsd-kind-icon">start<wbr>OfYear</a></li>
 						</ul>
 						<h3>Server time or not local time Functions</h3>
@@ -2775,7 +2778,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/addHours.ts#L18">addHours.ts:18</a></li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/addHours.ts#L18">addHours.ts:18</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2818,7 +2821,85 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/ddmmyyyy.ts#L11">ddmmyyyy.ts:11</a></li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/ddmmyyyy.ts#L11">ddmmyyyy.ts:11</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>payload: <span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = ...</span></h5>
+								<div class="tsd-comment tsd-typography">
+								</div>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-function">
+				<a name="yyyymmdd" class="tsd-anchor"></a>
+				<h3>yyyymmdd</h3>
+				<ul class="tsd-signatures tsd-kind-function">
+					<li class="tsd-signature tsd-kind-icon">yyyymmdd<span class="tsd-signature-symbol">(</span>payload<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/yyyymmdd.ts#L11">yyyymmdd.ts:11</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>payload: <span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = ...</span></h5>
+								<div class="tsd-comment tsd-typography">
+								</div>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+					</li>
+				</ul>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group ">
+			<h2>Localizer Functions</h2>
+			<section class="tsd-panel tsd-member tsd-kind-function">
+				<a name="getmonthname" class="tsd-anchor"></a>
+				<h3>get<wbr>Month<wbr>Name</h3>
+				<ul class="tsd-signatures tsd-kind-function">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Month<wbr>Name<span class="tsd-signature-symbol">(</span>payload<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/getMonthName.ts#L10">getMonthName.ts:10</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>payload: <span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = ...</span></h5>
+								<div class="tsd-comment tsd-typography">
+								</div>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-function">
+				<a name="getmonthnameof" class="tsd-anchor"></a>
+				<h3>get<wbr>Month<wbr>Name<wbr>Of</h3>
+				<ul class="tsd-signatures tsd-kind-function">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Month<wbr>Name<wbr>Of<span class="tsd-signature-symbol">(</span>payload<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/getMonthNameOf.ts#L10">getMonthNameOf.ts:10</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2843,7 +2924,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in relative.ts:20</li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/relative.ts#L22">relative.ts:22</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2852,9 +2933,11 @@ img {
 							</div>
 							<dl class="tsd-comment-tags">
 								<dt>example</dt>
-								<dd><pre><code><span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">createdAt</span><span style="color: #000000"> = </span><span style="color: #0000FF">new</span><span style="color: #000000"> </span><span style="color: #267F99">Date</span><span style="color: #000000">(</span><span style="color: #098658">2021</span><span style="color: #000000">, </span><span style="color: #098658">0</span><span style="color: #000000">, </span><span style="color: #098658">1</span><span style="color: #000000">)</span>
+								<dd><pre><code class="language-typescript"><span style="color: #AF00DB">import</span><span style="color: #000000"> </span><span style="color: #001080">relative</span><span style="color: #000000"> </span><span style="color: #AF00DB">from</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;lodate/relative&#039;</span>
 
-<span style="color: #795E26">fromAgo</span><span style="color: #000000">(</span><span style="color: #001080">createdAt</span><span style="color: #000000">); </span><span style="color: #008000">// 20 day(s) ago;</span>
+<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">createdAt</span><span style="color: #000000"> = </span><span style="color: #0000FF">new</span><span style="color: #000000"> </span><span style="color: #267F99">Date</span><span style="color: #000000">(</span><span style="color: #098658">2021</span><span style="color: #000000">, </span><span style="color: #098658">0</span><span style="color: #000000">, </span><span style="color: #098658">1</span><span style="color: #000000">)</span>
+
+<span style="color: #795E26">relative</span><span style="color: #000000">(</span><span style="color: #001080">createdAt</span><span style="color: #000000">) </span><span style="color: #008000">// 20 days ago</span>
 </code></pre>
 								</dd>
 							</dl>
@@ -2877,31 +2960,6 @@ img {
 					</li>
 				</ul>
 			</section>
-			<section class="tsd-panel tsd-member tsd-kind-function">
-				<a name="yyyymmdd" class="tsd-anchor"></a>
-				<h3>yyyymmdd</h3>
-				<ul class="tsd-signatures tsd-kind-function">
-					<li class="tsd-signature tsd-kind-icon">yyyymmdd<span class="tsd-signature-symbol">(</span>payload<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-				</ul>
-				<ul class="tsd-descriptions">
-					<li class="tsd-description">
-						<aside class="tsd-sources">
-							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/yyyymmdd.ts#L11">yyyymmdd.ts:11</a></li>
-							</ul>
-						</aside>
-						<h4 class="tsd-parameters-title">Parameters</h4>
-						<ul class="tsd-parameters">
-							<li>
-								<h5>payload: <span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = ...</span></h5>
-								<div class="tsd-comment tsd-typography">
-								</div>
-							</li>
-						</ul>
-						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-					</li>
-				</ul>
-			</section>
 		</section>
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Other Functions</h2>
@@ -2915,7 +2973,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/endOfYear.ts#L4">endOfYear.ts:4</a></li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/endOfYear.ts#L4">endOfYear.ts:4</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2938,7 +2996,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/getDate.ts#L10">getDate.ts:10</a></li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/getDate.ts#L10">getDate.ts:10</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2969,7 +3027,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/getDay.ts#L10">getDay.ts:10</a></li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/getDay.ts#L10">getDay.ts:10</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3000,7 +3058,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/getFullYear.ts#L3">getFullYear.ts:3</a></li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/getFullYear.ts#L3">getFullYear.ts:3</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3023,7 +3081,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/getMonth.ts#L3">getMonth.ts:3</a></li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/getMonth.ts#L3">getMonth.ts:3</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3037,52 +3095,6 @@ img {
 				</ul>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-function">
-				<a name="getmonthname" class="tsd-anchor"></a>
-				<h3>get<wbr>Month<wbr>Name</h3>
-				<ul class="tsd-signatures tsd-kind-function">
-					<li class="tsd-signature tsd-kind-icon">get<wbr>Month<wbr>Name<span class="tsd-signature-symbol">(</span>payload<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-				</ul>
-				<ul class="tsd-descriptions">
-					<li class="tsd-description">
-						<aside class="tsd-sources">
-							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/getMonthName.ts#L5">getMonthName.ts:5</a></li>
-							</ul>
-						</aside>
-						<h4 class="tsd-parameters-title">Parameters</h4>
-						<ul class="tsd-parameters">
-							<li>
-								<h5>payload: <span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = ...</span></h5>
-							</li>
-						</ul>
-						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-					</li>
-				</ul>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-function">
-				<a name="getmonthnameof" class="tsd-anchor"></a>
-				<h3>get<wbr>Month<wbr>Name<wbr>Of</h3>
-				<ul class="tsd-signatures tsd-kind-function">
-					<li class="tsd-signature tsd-kind-icon">get<wbr>Month<wbr>Name<wbr>Of<span class="tsd-signature-symbol">(</span>payload<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
-				</ul>
-				<ul class="tsd-descriptions">
-					<li class="tsd-description">
-						<aside class="tsd-sources">
-							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/getMonthNameOf.ts#L5">getMonthNameOf.ts:5</a></li>
-							</ul>
-						</aside>
-						<h4 class="tsd-parameters-title">Parameters</h4>
-						<ul class="tsd-parameters">
-							<li>
-								<h5>payload: <span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = ...</span></h5>
-							</li>
-						</ul>
-						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-					</li>
-				</ul>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-function">
 				<a name="startofyear" class="tsd-anchor"></a>
 				<h3>start<wbr>OfYear</h3>
 				<ul class="tsd-signatures tsd-kind-function">
@@ -3092,7 +3104,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/startOfYear.ts#L3">startOfYear.ts:3</a></li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/startOfYear.ts#L3">startOfYear.ts:3</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3118,7 +3130,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/currentTime.ts#L38">currentTime.ts:38</a></li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/currentTime.ts#L38">currentTime.ts:38</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -3149,7 +3161,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/843e225/src/currentTime.ts#L20">currentTime.ts:20</a></li>
+								<li>Defined in <a href="https://github.com/spb-web/lodate/blob/72a742c/src/currentTime.ts#L20">currentTime.ts:20</a></li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
